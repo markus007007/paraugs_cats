@@ -1,3 +1,19 @@
 body{
-    background-color: aqua;
+    background-image: url(https://wallpapers.com/images/hd/4k-nature-landscape-tjosigpz96t5pkj6.jpg);
+}
+.pamatLaukums{
+    background-color: rgb(125, 119, 131);
+    width: 700px;
+    height: 250px;
+    border: 2px solid rgb(229, 172, 172);
+    padding: 10px;
+    margin: auto;
+}
+.cataZina{
+    background-color: rgb(180, 231, 144);
+    height: 200px ;
+    padding: 10px;
+    overflow: scroll;
+    color: black;
+
 }
