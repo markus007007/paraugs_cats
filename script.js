@@ -2,7 +2,7 @@
 function sutitZinu()
 {
     console.log('sutitZinu()darbojas');
-    let zina = document.querySelector('zina')
-    let zinas = document.querySelector('cataZina')
-    zinas.innerHTML = zinas.innerHTML+zina.value
+    let zina = document.querySelector('zina');
+    let zinas = document.querySelector('cataZina');
+    zinas.innerHTML = zinas.innerHTML+'<br>'+zina.value;
 }
