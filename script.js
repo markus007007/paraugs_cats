@@ -8,3 +8,9 @@ function sutitZinu()
     
     zinas.innerHTML = zinas.innerHTML+'<br>'+zina.value;
 }
+
+function ieladetCataZinas()
+{
+    let datiNoServera= await fetch();
+
+}
