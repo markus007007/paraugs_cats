@@ -11,6 +11,7 @@ function sutitZinu()
 
 function ieladetCataZinas()
 {
-    let datiNoServera= await fetch();
+    let datiNoServera = await fetch('chatazinas.txt');
+    let dati = await datiNoServera.text
 
 }
