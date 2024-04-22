@@ -9,9 +9,10 @@ function sutitZinu()
     zinas.innerHTML = zinas.innerHTML+'<br>'+zina.value;
 }
 
-function ieladetCataZinas()
+async function ieladetCataZinas()
 {
     let datiNoServera = await fetch('chatazinas.txt');
-    let dati = await datiNoServera.text
+    let dati = await datiNoServera.text;
+    console.log(dati);
 
 }
